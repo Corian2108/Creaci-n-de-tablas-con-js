@@ -22,6 +22,7 @@ for (let i = 0; i < heroes.length; i++) {
     var tr = document.createElement('tr');
 
     var td1 = document.createElement('td');
+    
     td1.appendChild(document.createTextNode(heroes[i].id));
     tr.appendChild(td1);
 
